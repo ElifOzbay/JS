@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    padding: 0;
+}
+/* Butonların arka plan renklerini değiştiriyor */
+/* .gradient{
+    background: linear-gradient(90deg, rgba(45, 156, 219, .6), rgba(155,81,224,.6));
+} */
+
+/* butona gölge efekti ekliyor.butonun yazı rengini değiştiriyor ve alt çizgisini kaldırıyor. */
+.btn{
+    padding: 28px 28px; 
+    /* border-radius: 25px; */
+    color: white;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(144, 30, 148, 0.3); 
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+  
+    
+}
+.list{
+    list-style-position:inside;
+}
