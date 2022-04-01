@@ -1,0 +1,54 @@
+/* Fotoğrafın konumunu ayarlıyor */
+#pic{
+    display: block;
+    margin: auto;
+}
+/* Fotoğrafın sağına soluna yazı yazdırmayıp altından devam etmemizi sağlıyor. */
+.clear{
+    clear: both;
+}
+.container{
+    width:1450px ;
+    height: 90px;
+    display: block;
+    margin: auto;
+
+}
+.content{
+    width: 20%;
+    float: left;
+    height: 35%;
+    text-align: center;
+    
+}
+
+
+.container input[type=submit]:active{
+    display: flex;
+    border-style: inset;
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.bg-gray{
+    background-color: rgb(223, 223, 223);
+}
+.bg-cy{
+background-color: #7EE5DA;
+}
+
+.center {
+    display: block;
+    text-align: -webkit-center;
+}
