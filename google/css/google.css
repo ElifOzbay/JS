@@ -1,10 +1,10 @@
-/* Fotoğrafın konumunu ayarlıyor */
+/* Fotoğrafın konumunu ayarlıyor
 #pic{
     display: block;
     margin: auto;
-}
+} */
 /* Fotoğrafın sağına soluna yazı yazdırmayıp altından devam etmemizi sağlıyor. */
-.clear{
+/* .clear{
     clear: both;
 }
 .container{
@@ -20,10 +20,10 @@
     height: 35%;
     text-align: center;
     
-}
+} */
 
 
-.container input[type=submit]:active{
+/* .container input[type=submit]:active{
     display: flex;
     border-style: inset;
     appearance: auto;
@@ -46,9 +46,90 @@
 }
 .bg-cy{
 background-color: #7EE5DA;
-}
+} */
 
-.center {
+/* .center {
     display: block;
     text-align: -webkit-center;
+} */
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+
+}
+.bg-grey{
+    margin-bottom: 2px;
+    background-color: rgb(223, 223, 223);
+  /* margin ile düzeltildi Sağdan soldan margin ver düzenle !!!!!!!!!!!!!!! */
+    /* margin: 20px; */
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.logo{
+
+    display: flex;
+    margin: auto;
+}
+/* justify-content ortalamak için kullanıyoruz. 
+margin i de boşluk oluşturabilmek için kullandık. */
+.button{
+    /* yan yana gelmesi için kullandık */
+    display:flex ;
+    justify-content: center;
+    margin: 5px;
+
+}
+.space{
+    margin-right: 5px;
+}
+.design{
+    /* margin ile düzeltildi sağdan soldan düzelt!!!!!!!!!!!!!!!!!!!!!!! */
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.bg-cy{
+    background-color: #7EE5DA;
+    }
+.size1{
+    width: 480px;
+    height: 75px;
+    padding: 10px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.size2{
+    width:400px;
+    height: 75px;
+    padding: 10px;
+    margin-right: 2px;
+}
+.size3{
+    width: 580px;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bos{
+    margin: 0;
+}
+.dir{
+    display: flex;
+    /* yatayda ortala */
+    justify-content: center;
+
+}
+.wid{
+    width: 170px;
 }
